@@ -1,0 +1,1 @@
+import{c as e,o as t}from"./9a81-UXR.js";import{t as n}from"./-WKoxqDr.js";var r=t(async t=>{let{authenticated:r,check:i}=n();if(r.value===null&&await i().catch(()=>{}),!r.value)return e({path:`/admin/login`,query:t.path===`/admin`?{}:{next:t.path}})});export{r as default};
