@@ -1,0 +1,1 @@
+import{c as e,o as t}from"./3_4qhF9S.js";import{t as n}from"./Dd1ZWwis.js";var r=t(async t=>{let{authenticated:r,check:i}=n();if(r.value===null&&await i().catch(()=>{}),!r.value)return e({path:`/admin/login`,query:t.path===`/admin`?{}:{next:t.path}})});export{r as default};
